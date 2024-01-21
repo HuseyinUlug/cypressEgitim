@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-01-20T09:14:57.278Z",
+    "end": "2024-01-20T09:14:59.738Z",
+    "duration": 2460,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "78bfeb84-fc99-42f1-be03-1d8c13964a29",
+      "title": "",
+      "fullFile": "cypress\\e2e\\login.cy.js",
+      "file": "cypress\\e2e\\login.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2d27dad3-2ca0-4bb2-84f5-f4351819ec9f",
+          "title": "login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "login",
+              "fullTitle": "login login",
+              "timedOut": null,
+              "duration": 2344,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://demo.vercel.store/\");\ncy.xpath('//a[@href=\"/search/stickers\"]').click();\n_Methods.default.checkUrl('https://demo.vercel.store/search/stickers');\n_Methods.default.checkPathname('/search/stickers');\n_Methods.default.checkProtocol('https:');",
+              "err": {},
+              "uuid": "4bb0c9a9-e922-420b-b7c0-91fbf1f3978e",
+              "parentUUID": "2d27dad3-2ca0-4bb2-84f5-f4351819ec9f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4bb0c9a9-e922-420b-b7c0-91fbf1f3978e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2344,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
